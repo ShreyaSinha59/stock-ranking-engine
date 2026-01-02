@@ -1,0 +1,17 @@
+country: US
+exchanges:
+  - NYSE
+  - NASDAQ
+
+security_types:
+  - common_stock
+
+liquidity:
+  metric: ADDV
+  window_days: 30
+  min_usd: 10000000
+
+data_requirements:
+  min_price_history_days: 252
+
+recompute_frequency: weekly
